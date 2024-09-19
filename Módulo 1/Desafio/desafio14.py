@@ -1,4 +1,5 @@
-salario = float(input('Qual o seu salário ? '))
-print('Salário atual : R${:.2f}\n'.format(salario))
-print('Salário novo : R${:.2f}\n'.format(salario*1.15))
+Tc = float(input('Digite a temperatura em graus Celcius: '))
+Tf = 9/5*Tc + 32
 
+print('Temperatura em graus Celcius: {:.2f}'.format(Tc))
+print('Temperatura em graus Fahrenheit: {:.2f}'.format(Tf))

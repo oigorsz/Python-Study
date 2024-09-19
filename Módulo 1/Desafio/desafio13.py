@@ -1,2 +1,4 @@
-preco = float(input('Qual o preço do produto ? '))
-print('O produto custa R${:.2f} e sai a R%{:.2f} com 5% de desconto'.format(preco, preco*0.95))
+salario = float(input('Qual o seu salário ? '))
+print('Salário atual : R${:.2f}\n'.format(salario))
+print('Salário novo : R${:.2f}\n'.format(salario*1.15))
+
